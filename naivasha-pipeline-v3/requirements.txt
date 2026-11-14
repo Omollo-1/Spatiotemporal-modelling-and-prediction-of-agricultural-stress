@@ -1,0 +1,23 @@
+# Core (all notebooks)
+numpy
+pandas
+scipy
+scikit-learn>=1.4        # RandomForest with missing-value support
+rasterio
+matplotlib
+pyarrow
+shap
+joblib
+pillow
+h5py
+folium
+requests
+pyproj
+geopandas                # notebook 00 writes the Earth Engine catchment shapefile
+nbformat                 # only needed to rebuild notebooks (tools/build.py)
+
+# Real mode only
+earthengine-api          # notebooks 01-02
+asf-search               # notebook 03
+hyp3-sdk                 # notebook 03
+mintpy                   # notebook 04 (conda-forge install is more reliable on Windows/macOS)

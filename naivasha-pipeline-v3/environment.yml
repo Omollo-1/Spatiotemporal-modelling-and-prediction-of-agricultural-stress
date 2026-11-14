@@ -1,0 +1,28 @@
+name: naivasha
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn>=1.4
+  - rasterio
+  - geopandas
+  - matplotlib
+  - pyarrow
+  - shap
+  - joblib
+  - pillow
+  - h5py
+  - folium
+  - requests
+  - pyproj
+  - nbformat
+  - jupyterlab
+  - ipykernel
+  - mintpy
+  - pip
+  - pip:
+      - earthengine-api
+      - asf-search
+      - hyp3-sdk
